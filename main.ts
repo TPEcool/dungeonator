@@ -103,7 +103,7 @@ levels = [tilemap`level1`]
 spawns = [[24, 40]]
 levelTitles = [["TEST LEVEL", "Dungeon 1"]]
 let finishPos = [[6, 13]]
-let enemies = [[enemy(13 * 16, 13 * 6, assets.image`enemy`), enemy(1, 1, assets.image`enemy`)]]
+let enemies = [[enemy(13 * 17.85, 13 * 8, assets.image`enemy`), enemy(1, 1, assets.image`enemy`)]]
 loadLevel(0)
 game.onUpdate(function () {
     scene.centerCameraAt(mySprite.x, mySprite.y)
