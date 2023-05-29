@@ -85,6 +85,12 @@ function loadLevel (id: number) {
     tiles.setCurrentTilemap(levels[id])
     info.setLife(3)
 }
+function enemy (x: number, y: number, image2: Image) {
+    spawnEnemy = sprites.create(image2, SpriteKind.Enemy)
+    spawnEnemy.setPosition(x, y)
+    return spawnEnemy
+}
+let spawnEnemy: Sprite = null
 let levelTitles: string[][] = []
 let spawns: number[][] = []
 let levels: tiles.TileMapData[] = []
@@ -96,6 +102,8 @@ CharacterController()
 levels = [tilemap`level1`]
 spawns = [[24, 40]]
 levelTitles = [["TEST LEVEL", "Dungeon 1"]]
+let finishPos = [[6, 13]]
+let enemies = [[enemy(13 * 16, 13 * 6, assets.image`enemy`), enemy(1, 1, assets.image`enemy`)]]
 loadLevel(0)
 game.onUpdate(function () {
     scene.centerCameraAt(mySprite.x, mySprite.y)

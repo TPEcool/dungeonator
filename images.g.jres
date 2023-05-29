@@ -4,6 +4,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "player"
     },
+    "sC61]m%GR_fL:)dU5~Ru": {
+        "data": "hwQQABAAAABmZmZmZmZmZmaWmZmZmWlmZpmZmZmZmWaWaRGRmZmZaZZp8Z9pmZlplmnxn5aZmWmWmRaRlpmZaZaZmZmWmZlplpmZmZaZmWmWmRaRlpmZaZZp8Z+WmZlplmnxn2mZmWmWaRGRmZmZaWaZmZmZmZlmZpaZmZmZaWZmZmZmZmZmZg==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemy"
+    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",
